@@ -18,10 +18,10 @@
 </head>
 
 <body>
-
-    <main class="bg-light">
-        @yield('content')
-    </main>
+@include('partials.header')
+  <div class="jumbotron"></div>
+  @yield('content')
+@include('partials.footer')
 
 </body>
 
