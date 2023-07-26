@@ -1,1 +1,21 @@
 @import '~bootstrap/scss/bootstrap';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.title {
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+h5,
+.title {
+    color: #003486;
+}
